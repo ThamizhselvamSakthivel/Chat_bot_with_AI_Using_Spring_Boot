@@ -12,9 +12,9 @@ async function sendMessage() {
         });
 
         const aiResponse = await response.text();
-        appendMessage("AI", aiResponse);
+        appendMessage("Alex", aiResponse);
     } catch (error) {
-        appendMessage("AI", "Error: Unable to connect to AI.");
+        appendMessage("Alex", "Error: Unable to connect to AI.");
     }
 
     document.getElementById("user-input").value = "";

@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
 body { 
-    font-family: Arial, sans-serif; 
+    font-family: 'Poppins', sans-serif;
     text-align: center; 
     background-color: #f4f4f4;
 }

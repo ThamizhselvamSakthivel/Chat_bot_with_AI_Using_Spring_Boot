@@ -36,7 +36,7 @@ public class AIController {
         return formattedText.toString();
     }
 
-    @PostMapping("/api//clear")
+    @PostMapping("/api/clear")
     public String clearChat() {
         chatClient.clearChat();
         return "Chat history cleared.";
